@@ -30,6 +30,7 @@
         { "file": "sounds/nie.mp3", "label": "Error 01" },
         { "file": "sounds/dosc.mp3", "label": "Error 02" },
         { "file": "sounds/badzmy-lagodni.mp3", "label": "Error 03" }
+      ]
     },
     "input.required": {
       "sounds": [
