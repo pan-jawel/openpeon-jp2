@@ -1,0 +1,44 @@
+{
+  "cesp_version": "1.0",
+  "name": "jp2-ziarno-pack",
+  "display_name": "JP2 Ziarno Pack",
+  "version": "1.0.0",
+  "description": "Soundpack with JP2 from Ziarno 1991 for OpenPeon / PeonPing.",
+  "author": {
+    "name": "Pan Jawel",
+    "github": "pan-jawel"
+  },
+  "license": "UNLICENSED",
+  "language": "pl",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/badzmy-lagodni.mp3", "label": "Start 01" },
+        { "file": "sounds/co-mam-robic.mp3", "label": "Start 02" },
+        { "file": "sounds/hehe.mp3", "label": "Start 03" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/mozna.mp3", "label": "Complete 01" },
+        { "file": "sounds/no.mp3", "label": "Complete 02" },
+        { "file": "sounds/tak.mp3", "label": "Complete 03" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/nie.mp3", "label": "Error 01" },
+        { "file": "sounds/dosc.mp3", "label": "Error 02" },
+        { "file": "sounds/badzmy-lagodni.mp3", "label": "Error 03" }
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/co.mp3", "label": "Input required 01" },
+        { "file": "sounds/co-mam-robic.mp3", "label": "Input required 02" },
+        { "file": "sounds/jak-tobie-jest-na-imie.mp3", "label": "Input required 03" },
+        { "file": "sounds/nie-pamietam.mp3", "label": "Input required 04" },
+        { "file": "sounds/nie-wiem.mp3", "label": "Input required 05" }
+      ]
+    }
+  }
+}
