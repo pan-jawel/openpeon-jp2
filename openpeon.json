@@ -1,44 +1,415 @@
 {
   "cesp_version": "1.0",
-  "name": "jp2-ziarno-pack",
-  "display_name": "JP2 Ziarno Pack",
-  "version": "1.0.2",
-  "description": "Soundpack with JP2 from Ziarno 1991 for OpenPeon / PeonPing.",
+  "name": "jan_pawel_2",
+  "display_name": "Jan Pawel 2",
+  "version": "1.0.4",
+  "description": "Jan Pawel 2, the greatest Pole of all time.",
   "author": {
     "name": "Pan Jawel",
     "github": "pan-jawel"
   },
-  "license": "UNLICENSED",
+  "license": "CC-BY-NC-4.0",
   "language": "pl",
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/badzmy-lagodni.mp3", "label": "Start 01" },
-        { "file": "sounds/co-mam-robic.mp3", "label": "Start 02" },
-        { "file": "sounds/hehe.mp3", "label": "Start 03" }
+        {
+          "file": "sounds/badzmy-lagodni.mp3",
+          "label": "Badzmy lagodni",
+          "sha256": "9fbcfc87874cef91d0bf5521f48a0271f53d857bcfe9c6f886c310b121f004f9"
+        },
+        {
+          "file": "sounds/w-polsce-mi-sie-wszystko-podoba-polska-mi-sie-podoba.mp3",
+          "label": "W Polsce wszystko mi sie podoba, Polska mi sie podoba",
+          "sha256": "80d343bc7bde0d8a3e7b64818295efef65d8b6090066876fe2e2dbb1c89751cb"
+        },
+        {
+          "file": "sounds/w-polsce.mp3",
+          "label": "W Polsce",
+          "sha256": "80dd49c1d2268a829b336353c590fd8bd2fa5be4330d0fa5046cd2d40ad6b7b5"
+        },
+        {
+          "file": "sounds/hyhyhy.mp3",
+          "label": "Hyhyhy",
+          "sha256": "154f324b962fed443311ea528b54acb0562099e7f5ee4cd1a8c0ecb7876d4b82"
+        },
+        {
+          "file": "sounds/hee.mp3",
+          "label": "Hee",
+          "sha256": "be01799622902ed9cb2dd548a98b6de4aef861f1ab1e0f2f8d844e9bc95521e9"
+        },
+        {
+          "file": "sounds/marysia-ma-pytanie.mp3",
+          "label": "Marysia ma pytanie",
+          "sha256": "8c4c05a5de3dc28da217f79915b3e77747f2dd18c68e0d1fb02e7b6362e5a166"
+        },
+        {
+          "file": "sounds/tak-tak-tak-ty-ty-ty-jak-tobie-jest-na-imie.mp3",
+          "label": "Jak tobie jest na imie",
+          "sha256": "ab75807f71e966a99c51ed291740afe390a8706c7a47f0cdc7007f80cdfed770"
+        },
+        {
+          "file": "sounds/juz-pan-prezydent-walesa-czeka-z-rzadem-na-lotnisku.mp3",
+          "label": "Juz pan prezydent Walesa czeka z rzadem na lotnisku",
+          "sha256": "98be8340455dc56f899318ab438dc6030d39ac91d616a03377bed639b682d8da"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/a-mozna-jak-najbardziej-jeszcze-jak.mp3",
+          "label": "A mozna, jak najbardziej, jeszcze jak",
+          "sha256": "52d5b72755172a6bd7c03b17b30d29cd8dcdeb365a1a59d58d8ef34b8c5e7e28"
+        },
+        {
+          "file": "sounds/a-mozna-jak-najbardziej.mp3",
+          "label": "A mozna, jak najbardziej",
+          "sha256": "1b0be542844b1a71e54b4a59b85a10f138e37727bb5e41d40a72320a1f94ee89"
+        },
+        {
+          "file": "sounds/jeszcze-jak.mp3",
+          "label": "Jeszcze jak",
+          "sha256": "0cd5045b33814e1fde9768916c6cc8c0ca8b4c898baedf6b7e8bcefacf51c268"
+        },
+        {
+          "file": "sounds/tak-jest.mp3",
+          "label": "Tak jest",
+          "sha256": "f6416482b7fc331320d8a593160dbff9dcda92123d7d19f3318cbc8e54fa3e57"
+        },
+        {
+          "file": "sounds/jest-mozliwe.mp3",
+          "label": "Jest mozliwe",
+          "sha256": "fd6605472e0237aa2f849398a0a2f809afb140e70a9fa857e0e0789648daef2b"
+        },
+        {
+          "file": "sounds/taak.mp3",
+          "label": "Taak",
+          "sha256": "e46695134a77f3b448dcf96bf65700b0725c550b0d0f4e94b2de29964560b117"
+        },
+        {
+          "file": "sounds/no-jak-pan-jezus-powiedzial.mp3",
+          "label": "No, jak Pan Jezus powiedzial",
+          "sha256": "bda7b665b459ac0e4e01d3d1b58990245bcee6d3e3e9bce1d2afc68c098bb6f9"
+        },
+        {
+          "file": "sounds/tak-jak-pan-jezus-powiedzial.mp3",
+          "label": "Tak, jak Pan Jezus powiedzial",
+          "sha256": "1d0fbc67f0f307781d3e52a1edbd05849d71492cc322f718fe7e5b3750aabe2e"
+        },
+        {
+          "file": "sounds/tak-jak-pan-jezus-powiedzial-2.mp3",
+          "label": "Tak, jak Pan Jezus powiedzial 2",
+          "sha256": "391a7021021cb82f288bd712b3127c2b76939f8ecb9f2a60f1a2b3e916918c43"
+        },
+        {
+          "file": "sounds/moze-tak-kiedys.mp3",
+          "label": "Moze tak kiedys",
+          "sha256": "2f2f4c3361b986f2a3771e15ae0886bb2ff3fa2435d3baae777ecc2198174ba5"
+        }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/mozna.mp3", "label": "Complete 01" },
-        { "file": "sounds/no.mp3", "label": "Complete 02" },
-        { "file": "sounds/tak.mp3", "label": "Complete 03" }
+        {
+          "file": "sounds/jak-mi-dadza-to-jem.mp3",
+          "label": "Jak mi dadza to jem",
+          "sha256": "6203a6d3946976364abbf0f6373b0ce1dd2eac65a3868be708c7fd2b3fc00cd3"
+        },
+        {
+          "file": "sounds/tak.mp3",
+          "label": "Tak",
+          "sha256": "340c43664bec76cb9c9b27c2ca18e68c11a1d3517a72a489657aca18ca223e79"
+        },
+        {
+          "file": "sounds/no.mp3",
+          "label": "No",
+          "sha256": "8ba52a99dcec0fa7c0cf2a0b05fc2a43141e8e07c0a588ee82839fedcb6e5dd3"
+        },
+        {
+          "file": "sounds/no-2.mp3",
+          "label": "No 2",
+          "sha256": "e538699586d2deec3e676e3f299085b547049008a195a029d16a1534656ee8fc"
+        },
+        {
+          "file": "sounds/noo.mp3",
+          "label": "Noo",
+          "sha256": "55060c20f17cbe54eabb6a1a937ec8cb72866e745992470ac4660a7a5db39310"
+        },
+        {
+          "file": "sounds/bardzo.mp3",
+          "label": "Bardzo",
+          "sha256": "c6792a2bc54d5a045ac0e432fdc12b2f5224c759dfc51a3ca2885af61cc575de"
+        },
+        {
+          "file": "sounds/a-to-jest-herb-watykanu.mp3",
+          "label": "A to jest herb Watykanu",
+          "sha256": "dcca79aa192d4fe0e847d2f737d561b554dce76eaf67f9631e38b71d8cc52e10"
+        },
+        {
+          "file": "sounds/najwiecej-tosmy-kopali-w-pilke.mp3",
+          "label": "Najwiecej tosmy kopali w pilke",
+          "sha256": "31cb628cd965695613a1ff9066b451ee0b704b5440a3eea134e5ce8b5b44668e"
+        },
+        {
+          "file": "sounds/szpinak.mp3",
+          "label": "Szpinak",
+          "sha256": "2b1bb1682fb49e8b4811f8ebfe10ff910ec1d259fc6cc1fcba78b46ba8393ee6"
+        },
+        {
+          "file": "sounds/hyhyhy.mp3",
+          "label": "Hyhyhy",
+          "sha256": "154f324b962fed443311ea528b54acb0562099e7f5ee4cd1a8c0ecb7876d4b82"
+        },
+        {
+          "file": "sounds/hee.mp3",
+          "label": "Hee",
+          "sha256": "be01799622902ed9cb2dd548a98b6de4aef861f1ab1e0f2f8d844e9bc95521e9"
+        }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/nie.mp3", "label": "Error 01" },
-        { "file": "sounds/dosc.mp3", "label": "Error 02" },
-        { "file": "sounds/badzmy-lagodni.mp3", "label": "Error 03" }
+        {
+          "file": "sounds/nie.mp3",
+          "label": "Nie",
+          "sha256": "f612fce3dafc154f0b26afa89a53340ef2c38d8400a15c5d592361dfee34b41f"
+        },
+        {
+          "file": "sounds/nie-2.mp3",
+          "label": "Nie 2",
+          "sha256": "10cfcec6bc59e279f55d0c984d434229a30cb82c0cb334f727f8a9735a0dbe81"
+        },
+        {
+          "file": "sounds/dosc.mp3",
+          "label": "Dosc",
+          "sha256": "b024341589887f297b38b03ddf2be42e260fec3d220e3aad9957cef7f976608b"
+        },
+        {
+          "file": "sounds/bo-mi-nie-dali-nigdy.mp3",
+          "label": "Bo mi nie dali nigdy",
+          "sha256": "48b90451161292225406bcd0eabe4422e62dd450f9ad83a459a5be2640b40ee0"
+        },
+        {
+          "file": "sounds/a-ktoz-by-go-przenosil-taki-ciezki.mp3",
+          "label": "A ktoz by go przenosil taki ciezki",
+          "sha256": "e76288d3c4e7a2a932ca58b03dd160a036e86cc3fad1abb3920f4c103358de24"
+        },
+        {
+          "file": "sounds/nie-lowiem-niestety.mp3",
+          "label": "Nie lowiem niestety",
+          "sha256": "b2b419e7ecc785e648b7dc9ab8526380a2b3fbe2a5512184a08b8e0cbf0dd868"
+        },
+        {
+          "file": "sounds/zadnej-dobrej-sztuki-nie-napisalem.mp3",
+          "label": "Zadnej dobrej sztuki nie napisalem",
+          "sha256": "6b7800893e33c3d1946aeb59cd719c3fb2a9e384c21324f79ae65f70b5b8d1bf"
+        },
+        {
+          "file": "sounds/a-co-mam-zmieniac.mp3",
+          "label": "A co mam zmieniac",
+          "sha256": "a6abf7c77198d8f4139d12eef4d0b945fadd80c628d104fd35d48e42d8e9d5fa"
+        },
+        {
+          "file": "sounds/a-co-mam-zmieniac-jaki-to-jest-ten-herb.mp3",
+          "label": "A co mam zmieniac, jaki to jest ten herb",
+          "sha256": "fcc7ae438afa5cfc90f282ada0a41c5ae6bea511dbd53bf0550963c26fda0b77"
+        },
+        {
+          "file": "sounds/mozna-powiedziec-ze-to-jest-ten-okrutnik-no.mp3",
+          "label": "Mozna powiedziec, ze to jest ten okrutnik, no",
+          "sha256": "0283d31e2b5e4887e7f84d5ef8b8d0d5721082e131835294af2245187eccbb4a"
+        },
+        {
+          "file": "sounds/tak-sobie.mp3",
+          "label": "Tak sobie",
+          "sha256": "52a287017d0a12fa418a8429e0e573380bd21593d5c617bdb81bcdfaeef791f4"
+        },
+        {
+          "file": "sounds/okrutnik.mp3",
+          "label": "Okrutnik",
+          "sha256": "70bf1cfb763f9e756bf7a0372f259c31cbb9de60ee5c4b2c46aa753a10cc9dc3"
+        }
       ]
     },
     "input.required": {
       "sounds": [
-        { "file": "sounds/co.mp3", "label": "Input required 01" },
-        { "file": "sounds/co-mam-robic.mp3", "label": "Input required 02" },
-        { "file": "sounds/jak-tobie-jest-na-imie.mp3", "label": "Input required 03" },
-        { "file": "sounds/nie-pamietam.mp3", "label": "Input required 04" },
-        { "file": "sounds/nie-wiem.mp3", "label": "Input required 05" }
+        {
+          "file": "sounds/co.mp3",
+          "label": "Co",
+          "sha256": "9a689f40b8e40bd752ef75289a449dc4b7c84ee35de90ef835781e8519f7a117"
+        },
+        {
+          "file": "sounds/co-2.mp3",
+          "label": "Co 2",
+          "sha256": "f2c4eb5159b1fe7dbcc8c36b3877e8fd3922928033e0ddf70b69c223407508e4"
+        },
+        {
+          "file": "sounds/co-3.mp3",
+          "label": "Co 3",
+          "sha256": "296574da995350c112453086c8a6b1712af4d1c95b2470e532657124096a4d0e"
+        },
+        {
+          "file": "sounds/e-co.mp3",
+          "label": "E co",
+          "sha256": "ed680f963078fba0d8acff03ff41210b360d36d6c33e406bde01027c9dcd9665"
+        },
+        {
+          "file": "sounds/jaka.mp3",
+          "label": "Jaka",
+          "sha256": "ef69c5b7ee3e57ecba0af539d582045cfea03e49671ef38a2c305e713155148e"
+        },
+        {
+          "file": "sounds/co-co-robi.mp3",
+          "label": "Co, co robi",
+          "sha256": "678b21632cea9adff6dde214cb78568641b1e4864074ce73c47fb8a2e2cdb4a7"
+        },
+        {
+          "file": "sounds/co-mam-robic.mp3",
+          "label": "Co mam robic",
+          "sha256": "c4aec5c8a7ac1599b63ee9576603a69cda8e1b40f8832799ef9ecfc0488f249d"
+        },
+        {
+          "file": "sounds/co-mam-robic-2.mp3",
+          "label": "Co mam robic 2",
+          "sha256": "69e2c100c7b4a5d608810b50736e6e218ce617bc76323a75ee538809145fded1"
+        },
+        {
+          "file": "sounds/co-mam-robic-nie-moge-powiedziec-zebym-ich-nie-lubial.mp3",
+          "label": "Co mam robic, nie moge powiedziec zebym ich nie lubial",
+          "sha256": "6dc05283b9f3838581edb2502ede041b5eba2452aa248ddb51a5f8a0b852b68a"
+        },
+        {
+          "file": "sounds/a-to-ja-nie-wiem.mp3",
+          "label": "A to ja nie wiem",
+          "sha256": "d3875d33906704eb0cadca517fce4ec51ad436ec5f1a36d288791d4f3b458834"
+        },
+        {
+          "file": "sounds/ja-nie-wiem.mp3",
+          "label": "Ja nie wiem",
+          "sha256": "40add14fdb3ce81a490de83570edc748d72bd5bb37a4cb464a9a9db017f047b6"
+        },
+        {
+          "file": "sounds/nie-wiem.mp3",
+          "label": "Nie wiem",
+          "sha256": "fcfcb71077f8bc1848877612c9f79886d6cbeb6cf25a6731df039f688adbbac8"
+        },
+        {
+          "file": "sounds/nie-wiem-nic-o-takiej-gumie.mp3",
+          "label": "Nie wiem nic o takiej gumie",
+          "sha256": "25627bcc99a9cf69cbe177357b849c8f26177671604f8951cfa531a2c63a8c22"
+        },
+        {
+          "file": "sounds/jak-dotad-nie-bo-mi-nie-pokazali.mp3",
+          "label": "Jak dotad nie, bo mi nie pokazali",
+          "sha256": "58eaba3617736f42a35facd5579247f7c47e26f20c50f5cb2dbf8763510a6e88"
+        },
+        {
+          "file": "sounds/juz-nie-pamietam-tak-dokladnie.mp3",
+          "label": "Juz nie pamietam tak dokladnie",
+          "sha256": "aa081e4660bf8a877451c98a90f9cbe63452e63c772fa52c5e54eefcb08086d3"
+        },
+        {
+          "file": "sounds/z-warkoczykami-albo-bez-warkoczykow-tez-ujda.mp3",
+          "label": "Z warkoczykami albo bez warkoczykow tez ujda",
+          "sha256": "b52e7f6a5f81c11723cfcae107af32a9d6731de6cbb9fa5de57f4c9fbf9482e4"
+        },
+        {
+          "file": "sounds/a-po-co-mam-wybierac.mp3",
+          "label": "A po co mam wybierac",
+          "sha256": "0642eb3112bfef0567b564d6e732c455fc32bb1d4e3bc528d3503ab541ab09c4"
+        },
+        {
+          "file": "sounds/na-wislanej.mp3",
+          "label": "Na Wislanej",
+          "sha256": "38c92118ad04ccaa90d0e164061a641848b0619bdf95d36cd607a45829fd1e4b"
+        },
+        {
+          "file": "sounds/marysia-ma-pytanie.mp3",
+          "label": "Marysia ma pytanie",
+          "sha256": "8c4c05a5de3dc28da217f79915b3e77747f2dd18c68e0d1fb02e7b6362e5a166"
+        },
+        {
+          "file": "sounds/tak-tak-tak-ty-ty-ty-jak-tobie-jest-na-imie.mp3",
+          "label": "Jak tobie jest na imie",
+          "sha256": "ab75807f71e966a99c51ed291740afe390a8706c7a47f0cdc7007f80cdfed770"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/dosc.mp3",
+          "label": "Dosc",
+          "sha256": "b024341589887f297b38b03ddf2be42e260fec3d220e3aad9957cef7f976608b"
+        },
+        {
+          "file": "sounds/badzmy-lagodni.mp3",
+          "label": "Badzmy lagodni",
+          "sha256": "9fbcfc87874cef91d0bf5521f48a0271f53d857bcfe9c6f886c310b121f004f9"
+        },
+        {
+          "file": "sounds/juz-pan-prezydent-walesa-czeka-z-rzadem-na-lotnisku.mp3",
+          "label": "Juz pan prezydent Walesa czeka z rzadem na lotnisku",
+          "sha256": "98be8340455dc56f899318ab438dc6030d39ac91d616a03377bed639b682d8da"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/dosc.mp3",
+          "label": "Dosc",
+          "sha256": "b024341589887f297b38b03ddf2be42e260fec3d220e3aad9957cef7f976608b"
+        },
+        {
+          "file": "sounds/badzmy-lagodni.mp3",
+          "label": "Badzmy lagodni",
+          "sha256": "9fbcfc87874cef91d0bf5521f48a0271f53d857bcfe9c6f886c310b121f004f9"
+        },
+        {
+          "file": "sounds/okrutnik.mp3",
+          "label": "Okrutnik",
+          "sha256": "70bf1cfb763f9e756bf7a0372f259c31cbb9de60ee5c4b2c46aa753a10cc9dc3"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/tak-tak-ale-ja-jeszcze-musze-dzisiaj-wrocic-do-rzymu.mp3",
+          "label": "Ja jeszcze musze dzisiaj wrocic do Rzymu",
+          "sha256": "9b131e9272eed52f8c03cb379796ab754111ac5fc56ff8293ce1f4058b462235"
+        },
+        {
+          "file": "sounds/juz-pan-prezydent-walesa-czeka-z-rzadem-na-lotnisku.mp3",
+          "label": "Juz pan prezydent Walesa czeka z rzadem na lotnisku",
+          "sha256": "98be8340455dc56f899318ab438dc6030d39ac91d616a03377bed639b682d8da"
+        },
+        {
+          "file": "sounds/sen-jak-sie-nic-nie-sni.mp3",
+          "label": "Sen jak sie nic nie sni",
+          "sha256": "2eeba60b6486de8fa509b28f4e1294c84121ccdec7dc978a6890c4dfb9899307"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/tak-sobie.mp3",
+          "label": "Tak sobie",
+          "sha256": "52a287017d0a12fa418a8429e0e573380bd21593d5c617bdb81bcdfaeef791f4"
+        },
+        {
+          "file": "sounds/moze-tak-kiedys.mp3",
+          "label": "Moze tak kiedys",
+          "sha256": "2f2f4c3361b986f2a3771e15ae0886bb2ff3fa2435d3baae777ecc2198174ba5"
+        },
+        {
+          "file": "sounds/czasem-zesmy-sie-nawet-bili.mp3",
+          "label": "Czasem zesmy sie nawet bili",
+          "sha256": "57e88376ad64e4af823da282140e9274be7869add0a32692016273184e218550"
+        }
       ]
     }
   }
